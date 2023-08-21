@@ -1,0 +1,60 @@
+languageCode = "en-us"
+theme = "hugo-resume"
+
+title = "Pythagoras of Samos"
+baseURL = "https://personal.mathgradboard.com/"
+
+[params]
+address = "Metapontum Village, Italy"
+email = "Pythagoras@mathgradboard.com"
+favicon = "/icon/favicon.ico"
+firstName = "Pythagoras"
+lastName = "of Samos"
+phone = "1-555-555-5555"
+profileImage = "images/Pythagoras.jpeg"
+
+showEducation = true
+showTeaching = true
+showConferences = true
+showExperience = false
+showOpenSource = false
+showProjects = false
+showPublications = true
+showQr = false
+showSkills = false
+showCertifications = false
+showBlog = true
+
+[[params.handles]]
+link = "https://www.linkedin.com/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/uiowa-mgb"
+name = "GitHub"
+
+# Add as many as you like. So long as the name is found on this list
+# https://fontawesome.com/v4/icons/#brand
+# it should render a logo. For example:
+
+# [[params.handles]]
+# link = "https://mathoverflow.net/users/"
+# name = "Stack-Overflow"
+
+# This would render a stack-overflow icon linking to your page if you wanted
+
+# ==============================================================================
+# No need to change anything below here
+# ==============================================================================
+
+
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
