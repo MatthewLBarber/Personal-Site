@@ -1,15 +1,15 @@
 languageCode = "en-us"
 theme = "hugo-resume"
 
-title = "Pythagoras of Samos"
+title = "Matthew Barber"
 baseURL = "https://personal.mathgradboard.com/"
 
 [params]
-address = "Metapontum Village, Italy"
-email = "Pythagoras@mathgradboard.com"
+address = "Iowa City, Iowa"
+email = "matthew-barber@uiowa.edu"
 favicon = "/icon/favicon.ico"
-firstName = "Pythagoras"
-lastName = "of Samos"
+firstName = "Matthew"
+lastName = "Barber"
 phone = "1-555-555-5555"
 profileImage = "images/Pythagoras.jpeg"
 
